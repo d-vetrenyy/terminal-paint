@@ -13,3 +13,7 @@ println!("{}, {}", my_str, my_str2);
 // this will call println! and change the color of your text
 tp::color_println("this is blue text", tp::BLUE);
 ```
+
+## License
+This crate is distributed under the MIT license.
+https://opensource.org/licenses/MIT
