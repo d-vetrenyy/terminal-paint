@@ -30,6 +30,9 @@ pub const BLACK_ON_BLUE: ColorInstruction = ColorInstruction::Two(30, 44);
 pub const BLACK_ON_PURPLE: ColorInstruction = ColorInstruction::Two(30, 45);
 pub const BLACK_ON_CYAN: ColorInstruction = ColorInstruction::Two(30, 46);
 pub const BLACK_ON_WHITE: ColorInstruction = ColorInstruction::Two(30, 47);
+pub const RED_ON_BLACK: ColorInstruction = ColorInstruction::Two(31, 40);
+pub const RED_ON_GREEN: ColorInstruction = ColorInstruction::Two(31, 42);
+pub const RED_ON_YELLOW: ColorInstruction = ColorInstruction::Two(31, 43);
 
 /// `ColorInstruction` is a helper `enum`,
 /// that helps to represent numbers in ANSI Escape Code.
