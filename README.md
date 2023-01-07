@@ -3,7 +3,7 @@ rust library that simplifies printing colorful text to the console with ANSI esc
 It is based on ANSI Escape Code. Should work on Linux, macOS and Windows (from Windows 10 1511+) 
 
 ## Example
-```
+```rust
 use terminal_paint as tp;
 
 let my_str: String = tp::paint("hello world!", tp::YELLOW);
